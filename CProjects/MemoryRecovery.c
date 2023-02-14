@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-    // Open the memory card
+    // Open the memory 
     FILE *file = fopen(argv[1], "r");
     if (file == NULL)
     {
